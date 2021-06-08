@@ -11,8 +11,8 @@ links.forEach(function(link){
         //Agregar animaciones de salida
         content.classList.add("fadeOutUp");
         content.classList.add("animated");
-        setTimeout(function () {
-            location.href = "/";
+        setTimeout(function(){
+            location.href = "/boletines";
         },1000)
 
         return false;
